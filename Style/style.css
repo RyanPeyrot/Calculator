@@ -1,0 +1,37 @@
+:root {
+    --orange: #e6a132;
+    --white: #FFF;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--orange);
+}
+
+.container_Parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 5rem auto
+}
+
+.container_Child {
+    max-width: 300px;
+    width: 100%;
+}
+
+.calculator {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #b3b0ab;
+    box-shadow: 5px 5px 12px rgba(0,0,0,0.5);
+}
+
+.display {
+    background: #000;
+    border-radius: 1rem;
+    height: 5.5rem;
+    width: 100%;
+    padding: 1rem;
+}
